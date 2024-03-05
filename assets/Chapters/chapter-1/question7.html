@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript | Chapter-01 | Question-07</title>
+  </head>
+  <body>
+    <!-- Question-07 -->
+    <!-- Practice placement of <script></script> element in following sections of your project in exercise 6 ?
+a) Head
+b) Body (before your page's HTML)
+c) Body (inside your page's HTML)
+d) Body (after your page's HTML) -->
+
+
+    <br />
+
+    <!-- Answer -->
+
+    <!-- Better Practice option c) Body (inside your page's HTML) -->
+
+    <!-- a) Head: -->
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Page Title</title>
+        <script>
+          // Your JavaScript code here
+        </script>
+      </head>
+      <body>
+        <!-- Rest of your HTML content -->
+      </body>
+    </html>
+
+    <!-- b) Body (before your page's HTML): -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Page Title</title>
+      </head>
+      <body>
+        <script>
+          // Your JavaScript code here
+        </script>
+        <!-- Rest of your HTML content -->
+      </body>
+    </html>
+
+    <!-- c) Body (inside your page's HTML): -->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <!-- Rest of your HTML content -->
+    <script>
+        // Your JavaScript code here
+    </script>
+</body>
+</html>
+
+    <!-- d) Body (after your page's HTML): -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+</head>
+<body>
+    <!-- Rest of your HTML content -->
+</body>
+<script>
+    // Your JavaScript code here
+</script>
+</html>
+
+
+  </body>
+</html>
